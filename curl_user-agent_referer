@@ -1,0 +1,4 @@
+f2a29020ef3132e01dd61df97fd33ec8d7fcd1388cc9601e7db691d17d4d6188
+
+Sur la page copyright albatros, on trouve en commentaire les indices suivants : il faut utiliser le browser "ft_bornToSec", et venir de https://www.nsa.gov.
+Un browser est une forme d'user-agent. En utilisant 'loption -A de curl, il nous est permis de définir manuellement le user-agent. Ensuite, l'option -E nous permet de définir manuellement le "referer page", c'est a dire la page qui nous a référé a celle-ci. On obtient ainsi le flag.
