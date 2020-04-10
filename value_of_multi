@@ -1,2 +1,6 @@
 THE FLAG IS 03A944B434D5BAFF05F46C4BEDE5792551A2595574BCAFC9A6E25F67C382CCAA
-changer la valeur des notes
+
+changer la valeur des notes (inspect / value="10" => value="100")
+
+comment l'éviter :
+mettre dans valeur des lettres et verifier le resultat avec un switch case avec une erreur par défaut 
