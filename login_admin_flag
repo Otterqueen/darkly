@@ -1,4 +1,0 @@
-In the db_default database, we find the usernames and their hashed password. The hash is a simple MD5, no slat.
-Once we decrypt it using online ressources, we can log qs admin.
-
-b3a6e43ddf8b4bbb4125e5e7d23040433827759d4de1c04ea63907479a80a6b2

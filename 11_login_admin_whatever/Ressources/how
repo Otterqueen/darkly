@@ -1,0 +1,22 @@
+aller sur : 
+http://192.168.56.101/robots.txt
+
+ce qui nous donne :
+
+User-agent: *
+Disallow: /whatever
+Disallow: /.hidden
+
+
+http://192.168.56.101/whatever : 
+
+htpassword qui nous donne :
+
+root:8621ffdbc5698829397d97767ac13db3
+
+8621ffdbc5698829397d97767ac13db3 ==> md5 decrypt ==> dragon 
+
+
+http://192.168.56.101/admin
+user: root
+pssw : dragon

@@ -1,0 +1,2 @@
+comment l'éviter : 
+htmlspecialchars() et (optionnel) un preg_match pour vérifier qu'il n'y a que des caractères inoffensifs avant de l'envoyer.
