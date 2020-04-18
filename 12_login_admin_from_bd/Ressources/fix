@@ -1,0 +1,3 @@
+Toujours pareil pour eviter les injections SQL
+ne pas utiliser de MD5, trop facile à craquer
+ajouter des salts aux mots de passe
