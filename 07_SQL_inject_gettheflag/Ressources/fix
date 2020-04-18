@@ -1,1 +1,2 @@
+(idem 06)
 Il existe pour chaque langage et chaque framework web et ORM des méthodes et fonctions qui permettent d'effectuer des Sanity Check sur les requettes SQL faites par l'utilisateur afin de protéger contre les injections.
