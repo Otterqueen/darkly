@@ -1,5 +1,4 @@
 Le fichier robots.txt, à placer la racine d'un site web, contient une liste de ressources du site qui ne sont pas censées être explorées par les moteurs de recherches. 
-Ce fichier permet également d'indiquer aux moteurs l'adresse du fichier sitemap.xml du site.
 
 aller sur : 
 http://192.168.56.101/robots.txt
