@@ -1,4 +1,9 @@
-Pour trouver le fichier au se trouve le flag parmis les 17576 liens , il faut iterer sur les lien et trouver le seul qui ne comporte pas d'espace
+(idem 10)
+aller sur : 
+http://192.168.56.101/robots.txt
+nous permet de constater l'existance d'un dossier /.hidden qui comporte enormement de dossier et de sous-dossier dans lesquels se trouve des readme.
+
+Pour trouver le fichier dans lequel se trouve le flag parmis les 17576 liens , il faut iterer sur les liens et trouver le seul qui ne comporte pas d'espace
 Pour ce faire, nous avons fait un script en python : 
 
 import urllib.request
