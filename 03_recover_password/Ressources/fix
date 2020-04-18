@@ -1,1 +1,1 @@
-ne pas mettre de champs hidden mais plutot une constante innacessible par l'utilisateur.
+Ne pas utiliser le champ hidden pour des champs qui ne doivent pas être accessible à l'utilisateur. Passer plutôt par une valeur constante définie en back-end ou des check en back-end.

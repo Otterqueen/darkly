@@ -1,1 +1,1 @@
-en mettant '  ou une autre adresse email dans le champ hidden email.
+Aller dans le code source pour enlever l'attribut CSS "hidden" du champ adresse mail et utiliser le formulaire.

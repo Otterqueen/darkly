@@ -1,0 +1,1 @@
+Lorsqu'on utilise une requête GET en back, l'utilisateur peut faciliment modifier les paramètres envoyés. Il faut donc rajouter des vérification, notamment de la provenance en cas de média, ou fonctionner avec un dictionnaire de variables. Voir éviter les requetes GET pour afficher un média.

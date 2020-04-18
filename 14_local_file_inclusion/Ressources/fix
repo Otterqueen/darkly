@@ -1,0 +1,2 @@
+Utiliser chmod pour restreindre l'accès aux dossiers sensibles.
+Dans le contrôleur de page, définir un dictionnaire de pages limitées auquel l'accès est autorisé par l'utilisateur.
