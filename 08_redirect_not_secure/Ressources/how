@@ -1,4 +1,4 @@
-Quand tu inspecte les icônes de réseaux sociaux tu as :
+Quand on inspecte les icônes de réseaux sociaux il y a :
 href="index.php?page=redirect&site=twitter"
-tu met le lien http://192.168.56.101/index.php?page=redirect&site=twitter ==> redirect sur twitter
-Donc si tu changes twitter par toto ==> flag
+En mettant lien http://192.168.56.101/index.php?page=redirect&site=twitter ==> redirect sur twitter
+Donc si on change twitter par toto ==> flag
