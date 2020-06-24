@@ -1,4 +1,4 @@
-Le fichier robots.txt, à placer la racine d'un site web, contient une liste de ressources du site qui ne sont pas censées être explorées par les moteurs de recherches. 
+Le fichier robots.txt, qui se trouve en général à la racine d'un site web, contient une liste de ressources du site qui ne sont pas censées être explorées par les moteurs de recherches. 
 
 aller sur : 
 http://192.168.56.101/robots.txt
@@ -9,7 +9,7 @@ User-agent: *
 Disallow: /whatever
 Disallow: /.hidden
 
-pour voir le contenu du dossier /whatever aller sur l'adresse suivente :
+pour voir le contenu du dossier /whatever aller sur l'adresse suivante :
 http://192.168.56.101/whatever 
 
 ouvirir le fichier htpassword qui nous donne :
