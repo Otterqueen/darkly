@@ -1,8 +1,9 @@
-First got to the "members" page of the website.
-When you enter some characters in the search field, you notice a SQL message error. From this, we suppose a SQL injection is possible.
-A very simple one to try in "1 OR 1=1" which will give you all the members in just one search.
-To obtain usefull information, we will look for the tables that countain the architecture of the DataBase. These are generics and thus easy to find.
-First, we use "1 UNION SELECT TABLE_SCHEMA, TABLE_NAME FROM INFORMATION_SCHEMA.TABLES" to obtain all the table names and their schema.
-Then, "1 UNION SELECT TABLE_NAME, COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS" gives us all the columns names and their associated table.
-The "Commentaire" and "countersign" columns of the "GetThe Flag" user in the "users" table gives us the instruction to get the flag.
-First, decrypt the password, which turns out to be FortyTwo in MD5. Then, put every character in lower case, which gives us fortytwo. Finaly, apply a SHA256 hash to it. We obtain the following flag.
+Tout d'abord, il faut se rendre sur la page "members" du site.
+Quand on rentre des caractères aléatoires dans le champ de recherche, on remarque un message d'erreur SQL. Grâce à cela, nous déduisons qu'une injection SQL est possible.
+Une injection très simple à tester est "1 OR 1=1" qui nous donne en résultats tous les membres en une seule recherche.
+Pour obtenir des informations utiles, nous allons regarder les tables qui contiennent l'architecture de la base de donnée. Celles-ci sont génériques et faciles à trouver.
+
+Premièrement, "1 UNION SELECT TABLE_SCHEMA, TABLE_NAME FROM INFORMATION_SCHEMA.TABLES" nous permet d'obtenir tous les noms des tables et leur schéma.
+Ensuite, "1 UNION SELECT TABLE_NAME, COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS" nous donne accès aux noms de toutes les colonnes, et la table qui leur est associée.
+Les colonnes "Commentaire" et "countersign" de l'utilsateur "GetThe Flag" dans la table "users" nous donnent les instruction our obtenir le flag.
+Tout d'abord, il faut décrypter le mot de passe, qui s'avère être FortyTwo en MD5. Ensuite, nous passons chaque caractère en minuscule, de qui nous donne fortytwo. Enfin, nous appliquons un hash SHA256, ce qui nous donne le flag attendu.
