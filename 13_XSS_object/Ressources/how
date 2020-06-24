@@ -1,2 +1,3 @@
 Page index => inspect image nsa digital => href="?page=media&src=nsa"
 Dans l'url de la page media ajouter apres "src=" à la place de nsa :  data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTs8L3NjcmlwdD4=
+Il s'agit d'un texte encodé en base64 alors que la source attendue est une image.
