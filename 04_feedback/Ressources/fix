@@ -1,2 +1,2 @@
 comment l'éviter : 
-Faire un "sanity check" en back. La fonctions htmlspecialchars() pour rendre les caractèrs html innofensifs,  et un preg_match pourinterdire certains caractères.
+Faire un "sanity check" en back. La fonctions htmlspecialchars() pour rendre les caractèrs html innofensifs, et un preg_match pour interdire certains caractères.
