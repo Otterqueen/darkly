@@ -1,2 +1,1 @@
-In the db_default database, we find the usernames and their hashed password. The hash is a simple MD5, no slat.
-Once we decrypt it using online ressources, we can log qs admin.
+Dans la base de donnée db_default, on trouve les noms des utilisateurs et leurs mots de passe hashés. Le hash est un simple MD5, sans salt. Une fois décrypté en utilisant une ressource en ligne, nous pouvons nous connecter en tant qu'administrateur.
